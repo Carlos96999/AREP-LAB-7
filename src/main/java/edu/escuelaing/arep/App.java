@@ -1,9 +1,11 @@
 package edu.escuelaing.arep;
+import edu.escuelaing.arep.ConvertirGrados;
 import org.json.simple.JSONObject;
 import spark.Request;
 import spark.Response;
 import static spark.Spark.get;
 import static spark.Spark.port;
+import static spark.Spark.staticFileLocation;
 
 public class App 
 {
@@ -11,8 +13,10 @@ public class App
 	
 	public static void main(String[] args) 
 	{
+		staticFileLocation("/static");
         port(getPort());
         get("/celsius", (req, res) -> celsius(req, res));
+        get("/", (req, res) -> {res.redirect("index.html"); return "";});
     }
         
     private static Object celsius(Request request, Response response) 

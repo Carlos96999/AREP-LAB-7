@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arep Lab 7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="col" style="text-align: center">
+    <h1>Grados Fahrenheit a grados Celsius</h1>
+</div>
+<br/>
+<br/>
+<div class="col" style="text-align: center">
+    <label for="fahre">Ingrese la cantidad de grados Fahrenheit</label>
+    <input style="margin-left:10px" id="fahre" type="text">
+    <button style="margin-left:10px" type="button" onclick = webapp.getCelsius(fahre.value) >Convertir a grados Celsius</button>
+    <br/>
+	<br/>
+	<p id="respuesta"></p>
+</div>
+<br/>
+<br/>
+<br/>
+</body>
+<script src="js/webapp.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</html>
