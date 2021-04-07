@@ -13,7 +13,10 @@ Crearemos una API Gateway para poder acceder desde cualquier red o lugar a nuest
  [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/Carlos96999/AREP-LAB-7)  
 
 ## AWS  
-
+<img src="https://github.com/Carlos96999/AREP-LAB-7/blob/master/img/creacionS3Parte1.PNG?raw=true">  
+<img src="https://github.com/Carlos96999/AREP-LAB-7/blob/master/img/creacionS3Parte2.PNG?raw=true">  
+<img src="https://github.com/Carlos96999/AREP-LAB-7/blob/master/img/creacionS3Parte3.PNG?raw=true">  
+<img src="https://github.com/Carlos96999/AREP-LAB-7/blob/master/img/creacionS3Parte4.PNG?raw=true">  
 
 ## Instalación
 Para usar este programa debe abrir la consola (CMD) ir a la ubicación donde desee guardar el programa y ejecutar este comando:
@@ -55,6 +58,10 @@ Este laboratorio fue construido con las siguiente herramientas:
 * [Java](https://www.java.com/es/)
 * [GIT](https://git-scm.com/)
 * [AWS](https://aws.amazon.com/es/education/awseducate/)
+  
+## Uso del servicio web
+<img src="https://github.com/Carlos96999/AREP-LAB-7/blob/master/img/AWSEC2.PNG?raw=true">  
+<img src="https://github.com/Carlos96999/AREP-LAB-7/blob/master/img/AWSApiGateway.PNG?raw=true">  
 
 ## Licencia
 [Licencia **GNU General Public License v3.0**](https://github.com/Carlos96999/AREP-LAB-7/blob/master/LICENSE)
